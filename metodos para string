@@ -1,0 +1,30 @@
+// tip: each public class is put in its own file
+public class main
+{
+    // tip: arguments are passed via the field below this editor
+    public static void main(String[] args)
+    {
+
+        
+
+ boolean var_boolean= false;
+      int idade= 20;
+      float peso= 90.7f;
+      double altura= 1.90;
+      char letra= 'c';
+      String name = "Joao das Neves";
+
+     //System.out.println("oconteudo da variavel boolean é:" +var_boolean);
+      //System.out.println("o conteudo da variavel inteiro é: " +idade);
+     //System.out.println("o conteudo da flutuante é:"+peso);
+     //System.out.println("o conteudo da variavel double é:" +altura);
+     //System.out.println("o conteudo da variavel char é:" +letra);
+     //System.out.println("o conteudo da variavel string é:" +name);
+     //System.out.println("o " +name+ " tem " +idade+ " anos ");
+     //conversão para maiúscula : .toUpperCase()   
+     //conversão para maiúscula : .toLowererCase()
+     //contagem de caracteres
+     System.out.println("contagem de caracteres :"+name.length());
+     //comparar caracteres ou strings dentro de uma string - equals('char').
+      
+       System.out.println(name.toLowerCase());
