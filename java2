@@ -1,0 +1,24 @@
+// tip: each public class is put in its own file
+public class main
+{
+    // tip: arguments are passed via the field below this editor
+    public static void main(String[] args)
+    {
+      //  System.out.println("Hello, world!");
+
+         boolean var_boolean= false;
+      int idade= 20;
+      float peso= 90.7f;
+      double altura= 1.90;
+      char letra= 'c';
+      String name = "Joao das Neves";
+
+         System.out.println(name.replace('a','*'));
+         System.out.println(name.replace("Joao", "Jose"));
+         System.out.println(name.replaceFirst("a","*"));
+
+         
+
+
+    }
+}
